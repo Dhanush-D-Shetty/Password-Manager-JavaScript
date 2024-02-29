@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGaurd- Unlock Peace of Mind with Our Password Manager</title>
+    <meta http-equiv="refresh" content="30">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="passs.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1>PassGuard</h1>
+        <ul>
+            <li> <a href="#rawdata">form</a></li>
+            <li> <a href="#saved-data">Saved Data</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="rawdata" id="rawdata">
+                <h2>Enter the Password Details</h2>
+                <form action="" method="post">
+                    <label for="WebSite">WebSite-Name :</label>
+                    <input type="text" id="website" name="WebSite" autocomplete="on"
+                        placeholder="facebook ,instagrm ,Linked-In etc...." required> <br> <br>
+
+                    <label for="username">Username : </label>
+                    <input type="text" id="username" name="username" placeholder="User-Name" required> <br> <br>
+
+                    <label for="password">Password : </label>
+                    <input type="password" id="password" name="password" autocomplete="off" placeholder="Password"
+                        required> <br>
+                    <br>
+
+                    <div class="btn">
+                        <button type="reset">Reset</button>
+                        <button type="submit" id="savebtn">Save</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="saved-data" id="saved-data">
+                <h1>Pass-Words</h1>
+                <table border="1">
+                    <!-- <tr>
+                        <th>WebSite-Name</th>
+                        <th>User-Name</th>
+                        <th>Password</th>
+                        <th>Options</th>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="pass.js"></script>
+</body>
+
+</html>
