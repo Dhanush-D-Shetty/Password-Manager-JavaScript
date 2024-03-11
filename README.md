@@ -1,1 +1,1 @@
-https://pass-gaurd.netlify.app/
+https://pas-gaurd.netlify.app/
