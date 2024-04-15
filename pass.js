@@ -8,7 +8,7 @@ const deletePassword = (website) => {
     return e.website !== website;
   });
   localStorage.setItem("passwords", JSON.stringify(arrUpdate));
-  alert(`Data Deleted Scussccesfully  `);
+  alert(`Data Deleted Scussccesfully`);
   showPasswords();
 };
 
@@ -71,7 +71,7 @@ let getUserData = () => {
         });
 
         localStorage.setItem("passwords", JSON.stringify(json));
-        alert("Data saved Succesfully.Refresh the browser to see data");
+        alert(" Data saved Succesfully , Refresh the browser to see data ");
 
         // reseting the form empty
         username.value = "";
